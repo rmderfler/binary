@@ -6,3 +6,16 @@ describe('binary') do
     binary("101").should(eq(5))
   end
 end
+
+describe('trinary') do
+    it('takes a trinary number and returns a number as a decimal')do
+    trinary("20").should(eq(6))
+  end
+end
+
+describe('hexadecimal') do
+    it('takes a hexadecimal number and returns a number as a decimal')do
+    hexadecimal("a").should(eq(10))
+  end
+end
+
